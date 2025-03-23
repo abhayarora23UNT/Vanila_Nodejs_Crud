@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="2.209">
+  <testsuite name="DELETE /api/users" errors="0" failures="0" skipped="0" timestamp="2025-03-23T04:01:03" time="1.923" tests="2">
+    <testcase classname="DELETE /api/users should delete user" name="DELETE /api/users should delete user" time="0.058">
+    </testcase>
+    <testcase classname="DELETE /api/users should return error if user doesn&apos;t exist" name="DELETE /api/users should return error if user doesn&apos;t exist" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="GET /api/users" errors="0" failures="0" skipped="0" timestamp="2025-03-23T04:01:03" time="1.976" tests="1">
+    <testcase classname="GET /api/users should return list of users created" name="GET /api/users should return list of users created" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="POST /api/users" errors="0" failures="0" skipped="0" timestamp="2025-03-23T04:01:03" time="1.978" tests="1">
+    <testcase classname="POST /api/users should create new user" name="POST /api/users should create new user" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="/api/users/{userId}/hobbies" errors="0" failures="0" skipped="0" timestamp="2025-03-23T04:01:03" time="2.003" tests="7">
+    <testcase classname="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should return empty list of hobbies if none are added yet" name="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should return empty list of hobbies if none are added yet" time="0.02">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new if there are none" name="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new if there are none" time="0.003">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new to existing hobbies" name="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new to existing hobbies" time="0.003">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new to existing hobbies, duplicates are removed" name="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should update user hobbies - add new to existing hobbies, duplicates are removed" time="0.003">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should return list of hobbies added for user" name="/api/users/{userId}/hobbies E2E (get hobbies + update hobbies) should return list of hobbies added for user" time="0.003">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies Update hobbies should return error if user doesn&apos;t exist" name="/api/users/{userId}/hobbies Update hobbies should return error if user doesn&apos;t exist" time="0.002">
+    </testcase>
+    <testcase classname="/api/users/{userId}/hobbies Get hobbies should return error if user doesn&apos;t exist" name="/api/users/{userId}/hobbies Get hobbies should return error if user doesn&apos;t exist" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

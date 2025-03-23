@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="33" lines-covered="33" line-rate="1" branches-valid="6" branches-covered="6" branch-rate="1" timestamp="1742177403302" complexity="0" version="0.1">
+  <sources>
+    <source>/Users/abhay_arora1/Documents/Node_js_Learning/latestProjects/nodejs-gmp-template</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="config.ts" filename="src/config.ts" line-rate="1" branch-rate="1">
+          <methods>
+          </methods>
+          <lines>
+            <line number="1" hits="3" branch="false"/>
+            <line number="3" hits="3" branch="false"/>
+          </lines>
+        </class>
+        <class name="helpers.ts" filename="src/helpers.ts" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_0)" hits="21" signature="()V">
+              <lines>
+                <line number="4" hits="21"/>
+              </lines>
+            </method>
+            <method name="(anonymous_1)" hits="8" signature="()V">
+              <lines>
+                <line number="6" hits="8"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="23" signature="()V">
+              <lines>
+                <line number="8" hits="23"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="31" signature="()V">
+              <lines>
+                <line number="20" hits="31"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="3" branch="false"/>
+            <line number="4" hits="21" branch="false"/>
+            <line number="6" hits="8" branch="false"/>
+            <line number="8" hits="3" branch="false"/>
+            <line number="9" hits="23" branch="true" condition-coverage="100% (3/3)"/>
+            <line number="10" hits="5" branch="false"/>
+            <line number="13" hits="18" branch="true" condition-coverage="100% (3/3)"/>
+            <line number="14" hits="3" branch="false"/>
+            <line number="17" hits="15" branch="false"/>
+            <line number="20" hits="31" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="src.services" line-rate="1" branch-rate="1">
+      <classes>
+        <class name="public-holidays.service.ts" filename="src/services/public-holidays.service.ts" line-rate="1" branch-rate="1">
+          <methods>
+            <method name="(anonymous_1)" hits="7" signature="()V">
+              <lines>
+                <line number="8" hits="7"/>
+              </lines>
+            </method>
+            <method name="(anonymous_2)" hits="14" signature="()V">
+              <lines>
+                <line number="18" hits="14"/>
+              </lines>
+            </method>
+            <method name="(anonymous_3)" hits="5" signature="()V">
+              <lines>
+                <line number="24" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_4)" hits="5" signature="()V">
+              <lines>
+                <line number="35" hits="5"/>
+              </lines>
+            </method>
+            <method name="(anonymous_5)" hits="14" signature="()V">
+              <lines>
+                <line number="42" hits="14"/>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="2" branch="false"/>
+            <line number="2" hits="2" branch="false"/>
+            <line number="3" hits="2" branch="false"/>
+            <line number="8" hits="2" branch="false"/>
+            <line number="12" hits="7" branch="false"/>
+            <line number="14" hits="3" branch="false"/>
+            <line number="15" hits="3" branch="false"/>
+            <line number="18" hits="14" branch="false"/>
+            <line number="20" hits="1" branch="false"/>
+            <line number="24" hits="2" branch="false"/>
+            <line number="25" hits="5" branch="false"/>
+            <line number="27" hits="5" branch="false"/>
+            <line number="28" hits="5" branch="false"/>
+            <line number="29" hits="4" branch="false"/>
+            <line number="31" hits="1" branch="false"/>
+            <line number="35" hits="2" branch="false"/>
+            <line number="36" hits="5" branch="false"/>
+            <line number="38" hits="3" branch="false"/>
+            <line number="39" hits="3" branch="false"/>
+            <line number="42" hits="14" branch="false"/>
+            <line number="44" hits="1" branch="false"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
